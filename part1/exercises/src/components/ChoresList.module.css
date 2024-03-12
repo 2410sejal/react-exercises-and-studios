@@ -1,10 +1,12 @@
 .choresText {
    color: aqua;
-   font-size: larger;
+   font-size:medium;
    font-style: italic;
+   text-align: left;
 }
 
 .choresHeading {
    color: rgb(240, 99, 223);
    text-decoration-line: underline;
+   text-align: left;
 }
