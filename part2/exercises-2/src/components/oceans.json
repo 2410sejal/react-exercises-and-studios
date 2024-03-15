@@ -62,14 +62,5 @@
       "image": "https://em-content.zobj.net/thumbs/240/google/350/crocodile_1f40a.png",
       "creatureCheck":  "ture",
       "fishCheck": "false"
-   }, {
-      "id":8,
-      "name": "Oceans",
-      "fact1": "The Mariana Trench is the deepest part of the ocean floor reaching depths of 10,984 meters",
-      "fact2": "The Ocean is subdivided into 5 smaller oceans: Antarctic, Atlantic, Pacific, Indian, and Arctic",
-      "fact3": "Much of the world's oxygen is created by phytoplankton and algae",
-      "image": "https://em-content.zobj.net/thumbs/240/google/350/water-wave_1f30a.png",
-      "creatureCheck":  "false",
-      "fishCheck": "false"
    }
 ]
