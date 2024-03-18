@@ -3,9 +3,9 @@ export default function HobbyIntroduction () {
       <div>
          <h2>3 Fun Facts About Needlepoint</h2>
          <ol>
-            <li>Needlepoint uses a specialized canvas as it's base.</li>
-            <li>The most basic stitch is called a tent stitch.</li>
-            <li>Needlepoint uses a lot of different kinds of fibers.</li>
+            <li>The earliest known oil paintings were found in Afghanistan.</li>
+            <li>Face and body paint signals social status in many African cultures.</li>
+            <li>If you're looking for green paint, you're in luck!</li>
          </ol>
       </div>
    );
