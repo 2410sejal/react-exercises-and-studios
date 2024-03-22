@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.cookwithmanali.com/chilli-paneer/";
+   let authorPhoto = "https://secure.gravatar.com/avatar/8081981181678babf4597ff5d69d14e6?s=64&d=mm&r=g";
+   let authorName = "Manali Singh";
 
    return (
       <div>
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["250 grams paneer","3 tablespoons cornstarch","1/2 teaspoon salt","3 tablespoons all purpose flour","1/4 teaspoon black pepper "];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +36,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Chilli Paneer</h1>
+            <p>Chilli Paneer is a popular Indo-Chinese dish where cubes of fried crispy paneer are tossed in a spicy sauce made with<br></br> soy sauce, vinegar, chili sauce! Goes well with rice or noodles!</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://www.cookwithmanali.com/wp-content/uploads/2016/01/Chilli-Paneer-Restaurant-Style.jpg" height="200"alt="" className="imageUpdates"/>
    );
 }
 
